@@ -1,0 +1,17 @@
+add_newline = true
+
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[➜](bold red) '
+
+[username]
+style_user = 'white bold'
+style_root = 'black bold'
+format = ' [$user](bold red) '
+disabled = false
+show_always = true
+aliases = { "corpuser034g" = "matchai" }
+
+
+[lua]
+format = 'via [󰢱 $version](bold blue) '
